@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family=Pacifico & display=swap');
+@font-face{
+    font-family:dislexia;
+    src:url("./Fontes/OpenDyslexicMono-Regular.otf")
+}
+@font-face {
+    font-family:dislexia-regular;
+    src:url("./Fontes/OpenDyslexic-Regular.otf")
+}
+a{
+    text-decoration: none;
+    color: rgb(67, 7, 123);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color:rgb(96, 110, 238);
+    text-align: center;
+    font-size: 45px;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color:rgb(96, 110, 238);
+    text-align: center;
+    font-size: 35px;
+}
+body{
+    background-color: rgba(180, 126, 251, 0.792);
+
+}
+h2{
+    color: blue;
+    font-family: dislexia;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 20px;
+}
+p{
+    font-family:dislexia-regular;
+    color: rgb(241, 246, 199);
+    font-size: 20px;
+}
+.imgcapa{
+    background-image:url("./Imagens/1502968_5888.jpg");
+    width: 150px;
+    background-size:cover;
+}    
+.ano1{
+    background-color: rgb(247, 238, 160);
+    font-family: 'Pacifico', cursive;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;
+}
+.ano2{
+    background-color: rgb(235, 134, 245);
+    font-family: 'Pacifico', cursive;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;
+}
+.ano3{
+    background-color: rgb(129, 129, 248);
+    font-family: 'Pacifico', cursive;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;  
+}
+.ano4{
+    background-color: rgb(241, 246, 199);
+    font-family: 'Pacifico', cursive;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;
+}
+.ano5{
+    background-color: rgb(176, 176, 251);
+    font-family: 'Pacifico', cursive;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;
+}
+.boasVindas{
+    width:70%;
+    text-align: justify;
+}

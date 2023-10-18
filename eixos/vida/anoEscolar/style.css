@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family=Pacifico & display=swap');
+@font-face{
+    font-family:dislexia;
+    src:url("./Fontes/OpenDyslexicMono-Regular.otf")
+}
+@font-face {
+    font-family:dislexia-regular;
+    src:url("./Fontes/OpenDyslexic-Regular.otf")
+}
+h1, h3{
+    font-family: 'Pacifico', cursive;
+    color:rgb(96, 110, 238);
+    text-align: center;
+}
+body{
+    background-color: rgba(180, 126, 251, 0.792);
+
+}
+h2{
+    color: blue;
+    font-family: dislexia;
+    text-align: right;
+    margin-right: 10%;
+    font-size: 20px;
+}
+h4{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+p{
+        font-family:dislexia-regular;
+}
+.content{
+    columns:3;
+    width:90%;
+    flex-direction: row;
+    justify-content: center;
+    margin:5%;
+}
+.materia{
+    background-color: rgb(67, 7, 123);
+    border-radius: 20px;
+    text-align: center;
+    width: 85%;
+    height: auto;
+    padding: 5%;
+    color:rgb(229, 189, 255);
+}
+.materia p{
+    color:whitesmoke;
+}
+.botao{
+    font-family: 'Pacifico', cursive;
+    background-color:rgb(229, 189, 255);
+    color: rgb(67, 7, 123);
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin:1%;
+}

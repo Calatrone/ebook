@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> E-book Interativo de Ciências para Professores dos Anos Iniciais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Cadastro.js"></script>
+</head>
+    <body>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+        
+        <div class="container">
+
+        
+            <center>
+                <img src="./assets/header.png"width="500"/>
+            </center>
+
+            <h1>E-book Interativo de Ciências para Professores dos Anos Iniciais</h1>        
+            
+    
+            <br>
+            <h2>Liliane Calatrone</h2>
+            <h2>Mônica Lacerda</h2>
+            <br>
+            <br>
+            <center>
+                <p> Queridos professores aventureiros dos anos iniciais, preparem-se para uma jornada 
+                    científica eletrizante! É com muita empolgação que apresentamos nosso ebook interativo de ciências,
+                    o companheiro perfeito para tornar suas aulas verdadeiramente incríveis! 
+                    <br>
+                    Nele, vocês vão encontrar atividades malucas, experimentos alucinantes e recursos educacionais 
+                    cheios de surpresas. Os conteúdos vão fazer os cérebros dos alunos brilharem, vamos explorar 
+                    a ciência de um jeito dinâmico e animado. 
+                    <br>
+                    Estamos aqui para dar um superpoder às suas aulas de ciências e ajudar a inspirar 
+                    o s cientistas do futuro. Preparem-se para embarcar nessa aventura científica sem limites. 
+                    <br>
+                    É hora de transformar suas aulas em verdadeiros laboratórios de diversão!
+
+                    
+                </p>
+                <br>
+                <div class="formulario">
+                    <input class="nome" type="text" id="nome" placeholder="digite seu nome">
+                    <br>
+                    <input class="email" type="text" id="email" placeholder="insira seu email">
+
+
+                </div>
+                <br>
+                <br>
+                <h3> Escolha o eixo temático para entrar na plataforma</h3>
+
+                <iframe src="https://editor.p5js.org/lilik.faria86/full/iEcHqTjZl"></iframe>
+
+                <div class="ano escolar">
+                <button class="materia"onclick="registro.next()"><a href ="./eixos/materia/materiaEnergia.html"> Matéria e Energia </a></button>
+                <button class="terra"onclick="registro.next()"><a href ="./eixos/terra/terraUniverso.html"> Terra e Universo </a></button>
+                <button class="vida"onclick="registro.next()"><a href ="./eixos/vida/vidaEvolucao.html"> Vida e Evolução </a></button>
+                </div>
+
+            </center>
+    </div>
+</body>
+
+</html>
