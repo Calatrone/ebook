@@ -29,7 +29,7 @@ function registerUser1() {
   firebase.database().ref("/").child(user_mail).update({
     mail: "e-mail cadastrado no eixo Matéria e Energia"
   });
-  window.location="./eixos/materia/materiaEnergia.html"
+  window.location="eixos/terra/terraUniverso.html"
 }
 
 function registerUser2() {
