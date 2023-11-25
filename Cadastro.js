@@ -1,5 +1,5 @@
 function registerUser1() {
-
+  console.log("entrando em materia e energia")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
