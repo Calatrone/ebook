@@ -5,7 +5,7 @@ function registerUser1() {
   var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref(userIndex).set({
+  firebase.database().ref(userIndex).update({
     eixo: "Matéria e Energia",
     name: user_name,
     mail: user_mail
@@ -22,7 +22,7 @@ function registerUser2() {
   var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref(userIndex).set({
+  firebase.database().ref(userIndex).update({
     eixo: "Terra e Universo",
     name: user_name,
     mail: user_mail
@@ -39,7 +39,7 @@ function registerUser3() {
   var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref(userIndex).set({
+  firebase.database().ref(userIndex).update({
     eixo: "Vida e Evolução",
     name: user_name,
     mail: user_mail
