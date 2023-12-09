@@ -1,14 +1,6 @@
-var userIndex="";
-
-function codeUser(){
-  var index;
-  index+=1
-  userIndex = "user"+index
-}
-
 function registerUser1() {
   console.log("entrando em terra e Universo")
-  codeUser()
+  userIndex = "user"+Math.floor(Math.random())
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
@@ -24,7 +16,7 @@ function registerUser1() {
 }
 
 function registerUser2() {
-  codeUser()
+  userIndex = "user"+Math.floor(Math.random())
   console.log("entrando em terra e Universo")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
@@ -41,7 +33,7 @@ function registerUser2() {
 }
 
 function registerUser3() {
-  codeUser()
+  userIndex = "user"+Math.floor(Math.random())
   console.log("entrando em Vida e Evolução")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
