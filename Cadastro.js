@@ -1,5 +1,5 @@
 function registerUser1() {
-  console.log("entrando em terra e Universo")
+  console.log("entrando em meteria e Energia")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
@@ -13,15 +13,12 @@ function registerUser1() {
 }
 
 function registerUser2() {
-  var userIndex = "user"+Math.floor(Math.random())
-  console.log("entrando em terra e Universo")
-  var user_name = document.getElementById("user_name").value;
-  var user_mail = document.getElementById("user_mail").value;
+   console.log("entrando em terra e Universo")
+  user_name = document.getElementById("user_name").value;
+  user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref(userIndex).update({
-    eixo: "Terra e Universo",
-    name: user_name,
+  firebase.database().ref("/terra/").child(user_name).update({
     mail: user_mail
     
   });
@@ -30,19 +27,15 @@ function registerUser2() {
 }
 
 function registerUser3() {
-  var userIndex = "user"+Math.floor(Math.random())
-  console.log("entrando em Vida e Evolução")
-  var user_name = document.getElementById("user_name").value;
-  var user_mail = document.getElementById("user_mail").value;
+   console.log("entrando em vida e evolução")
+  user_name = document.getElementById("user_name").value;
+  user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref(userIndex).update({
-    eixo: "Vida e Evolução",
-    name: user_name,
+  firebase.database().ref("/vida/").child(user_name).update({
     mail: user_mail
     
   });
-  
   window.location.href="https://calatrone.github.io/ebook/eixos/vida/vidaEvolucao.html"
 
 }
