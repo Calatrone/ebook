@@ -1,14 +1,11 @@
 function registerUser1() {
   console.log("entrando em terra e Universo")
-  var userIndex = "user"+Math.floor(Math.random())
-  var user_name = document.getElementById("user_name").value;
-  var user_mail = document.getElementById("user_mail").value;
+  user_name = document.getElementById("user_name").value;
+  user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
-  firebase.database().ref("/"+userIndex).update({
-    'eixo': "Matéria e Energia",
-    'name': user_name,
-    'mail': user_mail
+  firebase.database().ref("/materia/").child(user_name).update({
+    mail: user_mail
     
   });
   
