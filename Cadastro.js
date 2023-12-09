@@ -1,4 +1,4 @@
-var userIndex;
+var userIndex="";
 
 function codeUser(){
   var index;
