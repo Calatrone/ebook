@@ -1,8 +1,8 @@
 function registerUser1() {
   console.log("entrando em terra e Universo")
-  userIndex = "user"+Math.floor(Math.random())
-  user_name = document.getElementById("user_name").value;
-  user_mail = document.getElementById("user_mail").value;
+  var userIndex = "user"+Math.floor(Math.random())
+  var user_name = document.getElementById("user_name").value;
+  var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
   firebase.database().ref(userIndex).set({
@@ -16,10 +16,10 @@ function registerUser1() {
 }
 
 function registerUser2() {
-  userIndex = "user"+Math.floor(Math.random())
+  var userIndex = "user"+Math.floor(Math.random())
   console.log("entrando em terra e Universo")
-  user_name = document.getElementById("user_name").value;
-  user_mail = document.getElementById("user_mail").value;
+  var user_name = document.getElementById("user_name").value;
+  var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
   firebase.database().ref(userIndex).set({
@@ -33,10 +33,10 @@ function registerUser2() {
 }
 
 function registerUser3() {
-  userIndex = "user"+Math.floor(Math.random())
+  var userIndex = "user"+Math.floor(Math.random())
   console.log("entrando em Vida e Evolução")
-  user_name = document.getElementById("user_name").value;
-  user_mail = document.getElementById("user_mail").value;
+  var user_name = document.getElementById("user_name").value;
+  var user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
   firebase.database().ref(userIndex).set({
