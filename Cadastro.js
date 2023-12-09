@@ -6,9 +6,9 @@ function registerUser1() {
   localStorage.setItem("user_name", user_name);
   localStorage.setItem("user_mail", user_mail);
   firebase.database().ref(userIndex).update({
-    eixo: "Matéria e Energia",
-    name: user_name,
-    mail: user_mail
+    'eixo': "Matéria e Energia",
+    'name': user_name,
+    'mail': user_mail
     
   });
   
