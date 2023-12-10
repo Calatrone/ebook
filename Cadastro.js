@@ -1,5 +1,5 @@
 function registerUser1() {
-  console.log("entrando em meteria e Energia")
+  console.log("entrando em materia e Energia")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
@@ -27,7 +27,7 @@ function registerUser2() {
 }
 
 function registerUser3() {
-   console.log("entrando em vida e evolução")
+   console.log("entrando em vida e Evolução")
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
   localStorage.setItem("user_name", user_name);
