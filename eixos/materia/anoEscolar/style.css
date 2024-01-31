@@ -31,8 +31,6 @@ p{
         font-family:dislexia-regular;
 }
 .content{
-    columns:3;
-    width:90%;
     flex-direction: row;
     justify-content: center;
     margin:5%;
