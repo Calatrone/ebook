@@ -1,31 +1,11 @@
-function registerUser1() {
+function registerUser() {
   user_name = document.getElementById("user_name").value;
   user_mail = document.getElementById("user_mail").value;
-  firebase.database().ref("/materia-energia/").push({
+  firebase.database().ref("/cadastros/").push({
     name:user_name,
     email:user_mail
    });
-  
- window.location.href="https://calatrone.github.io/ebook/eixos/materia/materiaEnergia.html"
+  att='<button class="materia"><a href="https://calatrone.github.io/ebook/eixos/materia/materiaEnergia.html"> Matéria e Energia</a></button><button class="terra"><a href="https://calatrone.github.io/ebook/eixos/terra/terraUniverso.html"> Terra e Universo</a></button><button class="vida" > <a href="https://calatrone.github.io/ebook/eixos/vida/vidaEvolucao.html">Vida e Evolução</a></button>'
+   document.getElementById("ano-escolar-botoes").innerHTML=att
 }
 
-function registerUser2() {
-  user_name = document.getElementById("user_name").value;
-  user_mail = document.getElementById("user_mail").value;
-  firebase.database().ref("/terra-universo/").push({
-    name:user_name,
-    email:user_mail
-   });
-  window.location.href="https://calatrone.github.io/ebook/eixos/terra/terraUniverso.html"
-}
-
-function registerUser3() {
-  user_name = document.getElementById("user_name").value;
-  user_mail = document.getElementById("user_mail").value;
-  firebase.database().ref("/vida-evolucao/").push({
-    name:user_name,
-    email:user_mail
-   });
-  window.location.href="https://calatrone.github.io/ebook/eixos/vida/vidaEvolucao.html"
-
-}
