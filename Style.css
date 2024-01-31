@@ -1,51 +1,77 @@
 @import url('https://fonts.googleapis.com/css2? family=Pacifico & display=swap');
-@font-face{
-    font-family:dislexia;
-    src:url("./Fontes/OpenDyslexicMono-Regular.otf")
-}
+
 @font-face {
-    font-family:dislexia-regular;
-    src:url("./Fontes/OpenDyslexic-Regular.otf")
+    font-family: dislexia;
+    src: url("./Fontes/OpenDyslexicMono-Regular.otf")
 }
-*{
-    margin:0;
+
+@font-face {
+    font-family: dislexia-regular;
+    src: url("./Fontes/OpenDyslexic-Regular.otf")
 }
-h1{
+
+* {
+    margin: 0;
+}
+
+.infos {
+    background-color: white;
+    height: 10%;
+}
+
+.refs {
+    background-color: white;  
     font-family: 'Pacifico', cursive;
-    color:rgb(96, 110, 238);
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin: 1%;
+    width: 80%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(96, 110, 238);
     text-align: center;
     font-size: 45px;
 }
-body{
+
+body {
     background-color: rgba(180, 126, 251, 0.792);
     width: 100%;
 }
-h2{
+
+h2 {
     color: blue;
     font-family: dislexia;
     text-align: right;
     font-size: 20px;
     margin-right: 10%;
 }
-h3{
+
+h3 {
     font-family: 'Pacifico', cursive;
-    color:rgb(96, 110, 238);
+    color: rgb(96, 110, 238);
     text-align: center;
     font-size: 35px;
 }
-p{
-    font-family:dislexia-regular;
+
+p {
+    font-family: dislexia-regular;
     color: rgb(241, 246, 199);
     font-size: 30px;
     text-align: justify;
     width: 80%;
 }
-.imgcapa{
-    background-image:url("./Imagens/1502968_5888.jpg");
+
+.imgcapa {
+    background-image: url("./Imagens/1502968_5888.jpg");
     width: 90%;
-    background-size:cover;
-}    
-.terra{
+    background-size: cover;
+}
+
+.terra {
     background-color: rgb(247, 238, 160);
     font-family: 'Pacifico', cursive;
     width: 30%;
@@ -53,9 +79,10 @@ p{
     border-radius: 20px;
     font-size: 23px;
     border-style: none;
-    margin:1%;
+    margin: 1%;
 }
-.materia{
+
+.materia {
     background-color: rgb(235, 134, 245);
     font-family: 'Pacifico', cursive;
     width: 30%;
@@ -63,10 +90,11 @@ p{
     border-radius: 20px;
     font-size: 23px;
     border-style: none;
-    margin:1%;
+    margin: 1%;
 
 }
-.vida{
+
+.vida {
     background-color: rgb(129, 129, 248);
     font-family: 'Pacifico', cursive;
     width: 30%;
@@ -74,9 +102,11 @@ p{
     border-radius: 20px;
     font-size: 23px;
     border-style: none;
-    margin:1%;
+    margin: 1%;
 }
-.nome, .email{
+
+.nome,
+.email {
     background-color: rgb(253, 255, 232);
     font-family: 'Pacifico', cursive;
     width: 30%;
@@ -84,10 +114,11 @@ p{
     border-radius: 20px;
     font-size: 23px;
     border-style: none;
-    margin:1%;
+    margin: 1%;
     text-align: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(67, 7, 123);
 }

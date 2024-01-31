@@ -27,6 +27,21 @@ body{
     background-color: rgba(180, 126, 251, 0.792);
 
 }
+.infos {
+    background-color: white;
+    height: 10%;
+}
+
+.refs {
+    background-color: white;  
+    font-family: 'Pacifico', cursive;
+    height: auto;
+    border-radius: 20px;
+    font-size: 23px;
+    border-style: none;
+    margin: 1%;
+    width: 80%;
+}
 h2{
     color: blue;
     font-family: dislexia;
